@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.socket.io/3.1.1/socket.io.min.js"></script>
+
+</head>
+<body>
+    ok
+    <audio id="sound" src="focus.mp3" type="audio/mp3"></audio>
+</body>
+<script>
+    var socket = io.connect("https://60b12a69df66.ngrok.io/")
+    socket.on('play', function(){
+        console.log("playing");
+        sound.play();
+})
+</script>
+</html>

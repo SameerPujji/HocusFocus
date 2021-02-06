@@ -1,0 +1,94 @@
+@import url("https://db.onlinewebfonts.com/c/54b9af0b935475d59a4bc1f6cdad764b?family=Jokerman");
+
+body {
+  padding: 50px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  background-color: #ff4f79;
+  color: #8de969;
+}
+
+a {
+  color: #00b7ff;
+}
+
+.boxed {
+  border: 5px solid black;
+  padding: 200px 10px 200px 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+canvas {
+  border: 5px solid #8de969;
+  margin: 220px 530px;
+  height: 500px;
+  width: 500px;
+}
+
+video {
+  margin: 220px 530px;
+  height: 500px;
+  width: 500px;
+}
+
+.btn-info {
+  margin-top: 420px;
+  margin-left: 612px;
+}
+
+/* .navbar-brand {
+  color: #dbc2cf;
+}
+
+#navedit {
+  background-color: #16262e;
+}
+
+.nav-link {
+  color: #dbc2cf;
+} */
+
+.btn-dark {
+  background-color: #ff4f79;
+  color: #8de969;
+  border-color: #ff4f79;
+}
+
+.jumbotron {
+  background-color: #a11692;
+}
+
+.card {
+  float: left;
+  margin-top: 50px;
+  margin-left: 125px;
+  background-color: #a11692;
+  height: 200px;
+}
+
+.align {
+  text-align: center;
+}
+
+.btn-info {
+  background-color: #8de969;
+  color: #a11692;
+  border-color: #8de969;
+}
+
+.btn-info:hover {
+  background-color: #f3a712;
+  color: white;
+  border-color: #f3a712;
+}
+
+.btn-dark:hover {
+  background-color: #f3a712;
+  color: white;
+  border-color: #f3a712;
+}
+
+#images {
+  height: 200px;
+  width: 500px;
+}
