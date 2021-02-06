@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    var socket = io.connect("https://60b12a69df66.ngrok.io")
+    var socket = io.connect("https://intense-retreat-15497.herokuapp.com/")
 function getInt() {
     return Math.floor(Math.random() * 7);
   }

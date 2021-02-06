@@ -13,7 +13,7 @@
     <audio id="sound" src="focus.mp3" type="audio/mp3"></audio>
 </body>
 <script>
-    var socket = io.connect("https://60b12a69df66.ngrok.io/")
+    var socket = io.connect("https://intense-retreat-15497.herokuapp.com/")
     socket.on('play', function(){
         console.log("playing");
         sound.play();
